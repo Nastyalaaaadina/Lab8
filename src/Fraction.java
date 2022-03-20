@@ -9,7 +9,7 @@ public class Fraction {
             Fraction fraction = new Fraction(-19,20);
             Fraction fraction1 = new Fraction(1,1);
             Fraction fraction2 = new Fraction(2,12);
-            System.out.println(fraction.add(fraction1));
+            System.out.println(fraction1.add(fraction));
             System.out.println(fraction.add(fraction, fraction1));
             System.out.println(fraction.substract(fraction1));
             System.out.println(fraction.substract(fraction, fraction1));
